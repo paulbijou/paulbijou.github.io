@@ -3,11 +3,11 @@ brand:
 menu-string: Menu
 
 nav:
-  - title: Services
+  - title: Standpunten
     url: '#services'
-  - title: Portfolio
+  - title: Filmpje
     url: '#portfolio'
-  - title: About
+  - title: Activiteiten
     url: '#about'
   - title: Team
     url: '#team'

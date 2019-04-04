@@ -1,28 +1,36 @@
 $(document).ready(function() {
     
-	function flipImage(img) {
-    if (img.attr('flipped')) {
-        img.removeAttr('flipped');
-	}
-    else {
-		img.attr('flipped','flipped');
-	}
-}
-
-	var ANIMATION_TIME = 5000; // ms
-
-    function tankStart() {
-        $("#tankske").animate({left: -3000}, 0, "swing", tankRight);
-    }
-	
     function tankLeft() {
-        $("#tankske").animate({left: -300}, ANIMATION_TIME, "swing", tankRight);
+		console.log("tank positioned on the left side of the screen.");
+        $("#tankske").animate({left: -1000}, 0, "linear"); // instant move tank to left position
     }
 
-    function tankRight() {
-		$("#tankske").attr("flipped"); // TODO make sure this works
-        $("#tankske").animate({left: $(window).width()}, ANIMATION_TIME, "linear", tankLeft);
+	function tankRight() {
+        $("#tankske").animate({left: 3000}, 0, "linear");
+	}
+	
+    function tankRightToLeft() {
+		var ANIMATION_TIME = Math.floor(Math.random()*5000); // ms
+		tankRight();
+		$("#tankske").addClass("flipped");
+        $("#tankske").animate({left: -1000}, ANIMATION_TIME, "linear", randomDirection);
     }
+
+    function tankLeftToRight() {
+		var ANIMATION_TIME = Math.floor(Math.random()*5000); // ms
+		tankLeft();
+		$("#tankske").removeClass("flipped");
+        $("#tankske").animate({left: $(window).width()}, ANIMATION_TIME, "linear", randomDirection);
+    }
+
+	function randomDirection() {
+		if (Math.random() > 0.5){
+			tankRightToLeft();
+		}
+		else {
+			tankLeftToRight();
+		}
+	}
     
-    tankStart();
+	randomDirection();
 });
