@@ -32,5 +32,7 @@ $(document).ready(function() {
 		}
 	}
     
+	if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1)  { // Exclude safari browser
 	randomDirection();
+}
 });
