@@ -1,7 +1,6 @@
 $(document).ready(function() {
     
     function tankLeft() {
-		console.log("tank positioned on the left side of the screen.");
         $("#tankske").animate({left: -1000}, 0, "linear"); // instant move tank to left position
     }
 
@@ -35,4 +34,8 @@ $(document).ready(function() {
 	if (!(navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) ) { // Exclude safari browser
 	randomDirection();
 }
+	else { // Oh oh, it's safari!
+		$("#tankske").animate({width: 0}, 2500); // shrink tankske until it's gone
+	}
+
 });
