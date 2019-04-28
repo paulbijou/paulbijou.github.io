@@ -21,41 +21,64 @@ services:
       text: Elke vis verdient een volwaardig huis met voldoende ruimte, elke vis heeft recht op een vistank.
     - icon: fa fa-lock
       image: img/cara.jpg
-      heading: Pintjes drinken
-      text: Of beter gezegd, pintjes tanken
+      heading: Behoud van de naam cara pils
+      text: Wij vechten actief voor de naam van dit hemelse brouwsel, zodat we kunnen blijven pintjes tanken. 
     - icon: fa fa-lock
       image: img/cry.png
       heading: Verboden te janken
-      text: In de plaats van uw traantjes te laten lopen, stellen wij voor dat u een pintje consumeert. De befaamde spreuk "ni janken, ma tanken" komt hier goed tot zijn recht.
+      text: In de plaats van uw traantjes te laten lopen, stellen wij voor dat u een pintje consumeert. De befaamde spreuk "ni janken, ma tanken" is niet enkel alombekend, het is levenswijsheid.
     - icon: fa fa-lock
       image: img/tank.svg
       heading: Iedereen een kanon op zijn voertuig en rupsbanden eronder
-      text: Het is 2019. Hoe kunt ge op dit moment nog met een ouderwets voertuig zonder kanon rondrijden? Wat gaat ge doen als er een duif tegen uw ruit vliegt? Wij knallen er in ieder geval op.
+      text: Het is 2019. Hoe kunt ge op dit moment nog met een ouderwets voertuig zonder kanon rondrijden? Wat gaat ge doen als er een duif voor uw ruit vliegt? In ons geval, ne ké goe khnalle.
 
 portfolio:
   heading: Filmpje
-  subheading: Deze sequentie van foto's zal een duidelijk beeld scheppen over onze werking.
+  subheading: Deze sequentie van foto's zal een duidelijk beeld scheppen over onze werking. Wordt verwacht op maandag 29 april.
 
 about:
-  heading: Activiteiten
+  heading: Activiteiten <br> DONDERDAG 9 MEI @ GRASVELD ALMA 3
   subheading: Ge wordt genen tank van in uwe zetel te blijven zitten.
   timeline:
     - image: img/about/1.jpg
       date: 
-      title: Boite
-      text: Af en toe een boitke kan deugd doen
-    - image: img/about/2.jpg
+      title: Brakke site maken
+      text: Ah nee das al gedaan
+
+    - image: img/petank.jpg
       date:  
       title: Petanke
       text: Voor echte tanken hemme we ne petank
-    - image: img/about/3.jpg
+
+    - image: img/renolt.jpg
       date: 
-      title: Renolt tunen
+      title: Renolt on display
       text: De renolt is al jaar en dag de grootste tank van ons land. Reeds meermaals bewees dit machien onverwoestbaar te zijn. Vandaag tunen we deze blitse kar opdat ie nog vele jaren kan blijven cruizen. 
-    - image: img/about/4.jpg
+
+    - image: img/cara.jpg
       date: 
       title: Ni janke ma tanke
       text: Rijkelijk zal de cara vloeien in jullie brandstoftankjes
+
+    - image: img/stylo.jpg
+      date: 
+      title: Duzt gadgets
+      text: Gadgets zijn nice. Shpeel en win.
+
+    - image: img/sumo.jpg
+      date: 
+      title: Sumospelen
+      text: De grootste tank wint
+
+    - image: img/mitraillette.jpg
+      date: 
+      title: Mitraillettes eten
+      text: Eigenlijk gewoon stokbrood me curryweste, frieten zijn te traag dus da doen we ni
+
+    - image: img/milkshake.jpg
+      date: 
+      title: Shakeskes drinken
+      text: Milkshakes wel, proteinenshakes zijn vuil
 
   end1: Wees
   end2: Een
@@ -65,19 +88,51 @@ team:
   heading: Ons tankteam
   subheading: ne goeien tank rijdt ni alleen
   members:
-    - name: Kay Garland
-      role: Hoofdtank
-      img: img/team/1.jpg
+    - name: Bobbie
+      role: Oppertank
+      img: img/team/robbert.jpg
         
-    - name: Larry Parker
+    - name: Kobbe
       role: Vicetank
-      img: img/team/2.jpg
+      img: img/team/jakob.jpg
 
-    - name: Diana Pertersen
+    - name: Roel
       role: IT tank
-      img: img/team/3.jpg
+      img: img/team/roeland.jpg
 
-  text: 
+    - name: Ine
+      role: Teletankie
+      img: img/team/ine.jpg
+        
+    - name: Marte
+      role: Biestank
+      img: img/team/marte.jpg
+
+    - name: Milan
+      role: IT tank
+      img: img/team/milan.jpg
+
+    - name: Sander
+      role: Vage tank
+      img: img/team/sander.jpg
+
+    - name: Matthias
+      role: Techtank
+      img: img/team/matthias.jpg
+        
+    - name: Helena
+      role: Energetische ponytank
+      img: img/team/helena.jpg
+
+    - name: Alya
+      role: Miss tank 2019
+      img: img/team/ayla.jpg
+
+    - name: Rutgi
+      role: Net op tijdtank
+      img: img/team/rutger.jpg
+
+  text: + iedereen die ik vegeten ben 
 
 clients:
   - img: img/tank1.png
@@ -104,5 +159,5 @@ contact:
 
   js-url: '././mail/contact_me.php'
   js-success: 'Your message has been sent. '
-  js-error: 'lol dit werkt ni ze'
+  js-error: 'NI VIA DEZE FORM HAD IK GEZEGD'
   js-error-min: 'Sorry "+i+", it seems that my mail server is not responding. Please try again later!'

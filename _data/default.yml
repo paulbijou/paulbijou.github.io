@@ -18,11 +18,11 @@ copyright: Copyright &copy; Tanken 2019
 
 social-buttons:
   - icon: fa fa-twitter
-    url: '#' 
+    url: 'https://facebook.com/lolploegtanken' 
   - icon: fa fa-facebook
-    url: '#'
+    url: 'https://facebook.com/lolploegtanken'
   - icon: fa fa-linkedin
-    url: '#'
+    url: 'https://facebook.com/lolploegtanken'
 
 quicklinks:
   - title: Privacy Policy
