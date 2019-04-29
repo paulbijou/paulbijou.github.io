@@ -132,6 +132,14 @@ team:
       role: Net op tijdtank
       img: img/team/rutger.jpg
 
+    - name: Ruben
+      role: Sporttank
+      img: img/team/ruben.jpg
+
+    - name: Eline
+      role: Nachtelijke tank
+      img: img/team/eline.jpg
+
   text: + iedereen die ik vegeten ben 
 
 clients:
